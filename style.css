@@ -1,0 +1,246 @@
+body{
+     margin: 0;
+}
+/* Common Code start */
+h1{
+     font-size: 50px;
+     font-family: font-family: 'Nunito', sans-serif;
+}
+h2{
+     font-size: 30px;
+     font-family: 'PT Serif', serif;
+}
+p{
+     font-size: 25px;
+     line-height: 30px;
+     
+}
+.icon{
+     margin-top: 10px;
+     padding-left: 11px;
+}
+a{
+     text-decoration: none;
+     padding: 15px;
+     background-color: tomato;
+     border-radius: 10px;
+     font-size: 25px;
+     color: #fff;
+     font-weight: 400;
+     font-family: 'PT Serif', serif;
+     text-align: center;
+     margin-top: 10px;
+     display: inline-block;
+}
+.margin{
+     margin: 5% 10% auto;
+}
+/* Common Code End */
+/* Banner Section start  */
+.banner-section{
+     background-image: url(images/flood-web.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     height: 300px; 
+     padding:100px 350px;
+     text-align: center;
+  
+}
+.banner-section img{
+     /* height: 100%; */
+}
+.banner-section h1{
+     font-weight: 700;
+     color: #fff;
+}
+.banner-section p{
+     font-weight: 600;
+     font-family: 'Nunito', sans-serif;
+     
+
+}
+.banner-section a{
+     text-decoration: none;
+     padding: 15px;
+     background-color: tomato;
+     border-radius: 10px;
+     font-size: 25px;
+     color: #fff;
+}
+/* Banner Section end  */
+/* Donate Section Start  */
+.donate-amount{
+     margin: 5% 10% auto;
+     padding: 0px 200px;
+     
+     
+}
+.donate-amount h1{
+     text-align: center;
+}
+.donate-amount p{
+     text-align: ;
+}
+.donate-amount ul{
+     display: flex;
+     font-weight: 700;
+     font-size: 25px;
+}
+.donate-amount ul li{
+     list-style: none;
+     padding:35px 35px;
+     background: #eee;
+     margin: 2px left;
+     box-shadow: 10px 10px 40px solid tomato;
+     
+     
+}
+ul li:hover{
+     color: tomato;
+     border:2px solid tomato;
+     border-radius: 5px;
+}
+hr{
+     border: 1px solid;
+}
+.form{
+     text-align: center;
+     border: none;
+     /* outline: none; */
+}
+.form form input{
+     outline: none;
+     color: rgb(14, 1, 1);
+     text-align: center;
+     margin: auto;
+     border: none;
+     padding: 15px;
+     /* */
+
+}
+.form .donate-now{
+     text-decoration: none;
+     padding: 15px;
+     background-color: tomato;
+     border-radius: 10px;
+     font-size: 25px;
+     color: #fff;
+     font-weight: 400;
+     font-family: 'PT Serif', serif;
+     
+
+}
+
+/* Donate Section End  */
+
+/* Donate plan start  */
+.donate-plan{
+     padding: 0px 200px;
+     text-align: center
+}
+.donate-plan-box{
+     display: flex;
+     margin: auto;
+     
+     
+
+}
+.left-box{
+          background: #cfc;
+          height: 300px;
+          width: 32%;
+          box-sizing: border-box;
+          margin: 10px;
+          justify-content: center;
+          flex-wrap: wrap;
+          border-radius: 10px;
+          padding-left: 12px;
+}
+.middle-box{
+     background: #dfdfdf;
+     height: 300px;
+     width: 32%;
+     box-sizing: border-box;
+     margin: 10px;
+     justify-content: center;
+     flex-wrap: wrap;
+     border-radius: 10px;
+     padding-left: 12px;
+}
+.right-box{
+     background: #fdf;
+     height: 300px;
+     width: 32%;
+     box-sizing: border-box;
+     margin: 10px;
+     justify-content: center;
+     /* flex-wrap: wrap; */
+     border-radius: 10px;
+     padding-left: 12px;
+}
+
+/* Donate plan End  */
+/* Contribute section 1st strat  */
+.descriptiption-left{
+     display: flex;
+     justify-content: space-between;
+     
+}
+.div-width{
+     width: 48%;
+
+
+}
+.div-width img{
+     width: 100%;
+     border-radius: 20px;
+}
+/* Contribute section 1st End  */
+.descriptiption-right{
+     display: flex;
+     justify-content: space-between;
+}
+.get-updates{
+     padding: 0px 200px;
+     text-align: center
+}
+
+.input-email{
+     text-align: center;
+}
+
+
+.email-section{
+     /* border: 1px solid; */
+     width: 30%;
+     margin: auto;
+     background: #ffeaa7;
+     padding: 50px;
+}
+form .email-subcribe{
+     margin: 0%;
+     background: #dfe6e9;
+     border: none;
+     padding: 5px;
+}
+form .subscribe{
+     background: tomato;
+     border: none;
+     padding: 5px;
+     border-radius: 5px;
+     margin: 0%;
+}
+
+/* footer start  */
+footer{
+     text-align: center;
+     background: black;
+     color: #aaa;
+     display: block;
+     
+}
+footer, p{
+     font-size: 20px;
+     margin-bottom: 10px;
+}
+/* footer end  */
